@@ -9,6 +9,8 @@ gem 'rails', '~> 5.2.0'
 gem 'blacklight', '~> 6.7'
 gem 'trln_argon', git: 'https://github.com/trln/trln_argon.git'
 
+gem 'traject' , '~> 2.3.4'
+
 gem 'mysql2'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
