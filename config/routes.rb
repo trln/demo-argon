@@ -5,6 +5,12 @@ Rails.application.routes.draw do
   root to: "catalog#index"
   concern :searchable, Blacklight::Routes::Searchable.new
 
+  resource :trln, only: [:index], as: 'trln', path: '/trln', controller: 'trln' do
+    concerns :searchable
+  end
+
+  get "trln/:id", to: "trln#show", as: "trln_solr_document"
+
   resource :catalog, only: [:index], as: 'catalog', path: '/catalog', controller: 'catalog' do
     concerns :searchable
   end
