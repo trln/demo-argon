@@ -17,5 +17,6 @@
 // Required by Blacklight
 //= require jquery
 //= require blacklight/blacklight
+//= require trln_argon/trln_argon
 
 //= require_tree .
