@@ -2,7 +2,7 @@
 class CatalogController < ApplicationController
 
   include Blacklight::Catalog
-  include Blacklight::Marc::Catalog
+
 
   # CatalogController behavior and configuration for TrlnArgon
   include TrlnArgon::ControllerOverride
@@ -123,6 +123,6 @@ class CatalogController < ApplicationController
 
     # Configuration for autocomplete suggestor
     config.autocomplete_enabled = false
-    config.autocomplete_path = 'suggest'
+    # config.autocomplete_path = 'suggest'
   end
 end
