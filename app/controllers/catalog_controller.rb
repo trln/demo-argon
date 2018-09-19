@@ -120,9 +120,5 @@ class CatalogController < ApplicationController
     # If there are more than this many search results, no spelling ("did you
     # mean") suggestion is offered.
     config.spell_max = 5
-
-    # Configuration for autocomplete suggestor
-    config.autocomplete_enabled = false
-    # config.autocomplete_path = 'suggest'
   end
 end
