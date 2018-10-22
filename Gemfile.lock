@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/trln/trln_argon.git
-  revision: db85533417de7ab8f3e7b638e6641b5b21381220
+  revision: 9a9e86793016ffe79c655e925f38da35f7ded100
   specs:
-    trln_argon (0.5.23)
-      blacklight (~> 6.7)
+    trln_argon (0.5.35)
+      blacklight (~> 6.16)
       blacklight-hierarchy (~> 1.1.0)
       blacklight_advanced_search (~> 6.2)
       blacklight_range_limit (~> 6.3)
@@ -66,7 +66,7 @@ GEM
     archive-zip (0.11.0)
       io-like (~> 0.3.0)
     arel (9.0.0)
-    autoprefixer-rails (9.1.4)
+    autoprefixer-rails (9.2.1)
       execjs
     bcrypt (3.1.12)
     better_errors (2.1.1)
@@ -74,7 +74,7 @@ GEM
       erubis (>= 2.6.6)
       rack (>= 0.9.0)
     bindex (0.5.0)
-    blacklight (6.15.0)
+    blacklight (6.16.0)
       bootstrap-sass (~> 3.2)
       deprecation
       globalid
