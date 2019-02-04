@@ -1,18 +1,24 @@
 Rails.application.routes.draw do
 
+  concern :range_searchable, BlacklightRangeLimit::Routes::RangeSearchable.new
   mount Blacklight::Engine => '/'
+  mount TrlnArgon::Engine => '/'
 
   root to: "catalog#index"
   concern :searchable, Blacklight::Routes::Searchable.new
 
   resource :trln, only: [:index], as: 'trln', path: '/trln', controller: 'trln' do
     concerns :searchable
+    concerns :range_searchable
+
   end
 
 
 
   resource :catalog, only: [:index], as: 'catalog', path: '/catalog', controller: 'catalog' do
     concerns :searchable
+    concerns :range_searchable
+
   end
   devise_for :users
   concern :exportable, Blacklight::Routes::Exportable.new
