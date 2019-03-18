@@ -7,7 +7,7 @@ ruby '2.5.1'
 gem 'rails', '~> 5.2.0'
 
 gem 'blacklight', '~> 6.7'
-gem 'trln_argon', git: 'https://github.com/trln/trln_argon.git'
+gem 'trln_argon', git: 'https://github.com/trln/trln_argon.git', branch: 'develop'
 
 gem 'traject' , '~> 2.3.4'
 
