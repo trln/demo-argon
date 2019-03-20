@@ -12,7 +12,7 @@ gem 'blacklight', '~> 6.7'
 
 gem 'bootstrap-sass', '>= 3.4.1'
 
-gem 'trln_argon', git: 'https://github.com/trln/trln_argon.git', branch: 'develop'
+gem 'trln_argon', git: 'https://github.com/trln/trln_argon.git', branch: 'TD-819-delim'
 
 gem 'traject' , '~> 2.3.4'
 

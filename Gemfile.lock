@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/trln/trln_argon.git
-  revision: 25d3da744bda352a9a490e64fd1546cfec213ac6
-  branch: develop
+  revision: 27252f2cd3f3b469e009224dff02fdcaeadc2bda
+  branch: TD-819-delim
   specs:
     trln_argon (1.1.0.pre)
       addressable (~> 2.5)
