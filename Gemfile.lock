@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/trln/trln_argon.git
-  revision: 29fa7a44904e88000a57252fbaa72c3a58c9ff5d
-  branch: TD-977-Reduce-boosts-by-10-times
+  revision: 701d769ca87e7ea6e1ff8197defd6e4f23360214
+  branch: TD-985-Implement-Cite-This-using-WorldCat-Search-API-Stanford
   specs:
-    trln_argon (1.3.10)
+    trln_argon (1.3.11)
       addressable (~> 2.5)
       blacklight (~> 6.16)
       blacklight-hierarchy (~> 1.1.0)
