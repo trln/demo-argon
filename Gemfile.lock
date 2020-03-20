@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/trln/trln_argon.git
-  revision: fcec2c65df0e1b146cd99ef5a977a54e9e8ad5ce
-  branch: TD-985-Implement-Cite-This-using-WorldCat-Search-API-Stanford
+  revision: 19f28619b272f672e2e1af2f26613fd866e8ffc2
+  branch: TD-905-Use-relevance-instead-of-title-as-tie-break-when-sorting-by-pub-date
   specs:
-    trln_argon (1.3.11)
+    trln_argon (1.3.13)
       addressable (~> 2.5)
       blacklight (~> 6.16)
       blacklight-hierarchy (~> 1.1.0)

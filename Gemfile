@@ -12,7 +12,7 @@ gem 'blacklight', '~> 6.7'
 
 gem 'bootstrap-sass', '>= 3.4.1'
 
-gem 'trln_argon', git: 'https://github.com/trln/trln_argon.git', branch: 'TD-985-Implement-Cite-This-using-WorldCat-Search-API-Stanford'
+gem 'trln_argon', git: 'https://github.com/trln/trln_argon.git', branch: 'TD-905-Use-relevance-instead-of-title-as-tie-break-when-sorting-by-pub-date'
 
 gem 'traject' , '~> 2.3.4'
 
