@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/trln/trln_argon.git
-  revision: fcec2c65df0e1b146cd99ef5a977a54e9e8ad5ce
-  branch: TD-985-Implement-Cite-This-using-WorldCat-Search-API-Stanford
+  revision: b722c88f7dd521fd869cd5b7f6b98075c076aac6
+  branch: master
   specs:
-    trln_argon (1.3.11)
+    trln_argon (1.3.17)
       addressable (~> 2.5)
       blacklight (~> 6.16)
       blacklight-hierarchy (~> 1.1.0)
@@ -95,10 +95,10 @@ GEM
     blacklight_advanced_search (6.4.1)
       blacklight (~> 6.0, >= 6.0.1)
       parslet
-    blacklight_range_limit (6.3.3)
-      blacklight (>= 6.0.2)
+    blacklight_range_limit (6.4.0)
+      blacklight (>= 6.10.0, < 7.0.0)
       jquery-rails
-      rails (>= 3.0)
+      rails (>= 4.2, < 6)
     bootsnap (1.4.6)
       msgpack (~> 1.0)
     bootstrap-sass (3.4.1)
