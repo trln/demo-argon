@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/trln/trln_argon.git
-  revision: f8c2718ee34c11d4b176300dd5b9d9e26a9d4b98
-  branch: master
+  revision: dcc91ba0bba297d36453878ba85837340f6afb29
+  branch: TD-1080-Remove-COinS-metadata-in-a-test-environment
   specs:
     trln_argon (1.3.27)
       addressable (~> 2.5)

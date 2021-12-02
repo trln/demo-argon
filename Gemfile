@@ -12,7 +12,7 @@ gem 'blacklight', '~> 6.7'
 
 gem 'bootstrap-sass', '>= 3.4.1'
 
-gem 'trln_argon', git: 'https://github.com/trln/trln_argon.git', branch: 'master'
+gem 'trln_argon', git: 'https://github.com/trln/trln_argon.git', branch: 'TD-1080-Remove-COinS-metadata-in-a-test-environment'
 
 gem 'traject' , '~> 2.3.4'
 
