@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/trln/trln_argon.git
-  revision: dcc91ba0bba297d36453878ba85837340f6afb29
-  branch: TD-1080-Remove-COinS-metadata-in-a-test-environment
+  revision: b8fe947c3c78d66b22e30020e1db5b2655f8205d
+  branch: master
   specs:
-    trln_argon (1.3.27)
+    trln_argon (1.3.28)
       addressable (~> 2.5)
       blacklight (~> 6.16)
       blacklight-hierarchy (~> 1.1.0)
@@ -167,8 +167,8 @@ GEM
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
       rake
-    font-awesome-rails (4.7.0.7)
-      railties (>= 3.2, < 7)
+    font-awesome-rails (4.7.0.8)
+      railties (>= 3.2, < 8.0)
     git (1.3.0)
     globalid (0.5.2)
       activesupport (>= 5.0)
