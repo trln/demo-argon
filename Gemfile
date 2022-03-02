@@ -12,7 +12,7 @@ gem 'blacklight', '~> 6.7'
 
 gem 'bootstrap-sass', '>= 3.4.1'
 
-gem 'trln_argon', git: 'https://github.com/trln/trln_argon.git', branch: 'master'
+gem 'trln_argon', git: 'https://github.com/trln/trln_argon.git', branch: 'Remove-citations'
 
 gem 'traject' , '~> 2.3.4'
 
@@ -48,6 +48,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'blacklight-citeproc'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

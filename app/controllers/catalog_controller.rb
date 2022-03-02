@@ -12,6 +12,25 @@ class CatalogController < ApplicationController
 
 
   configure_blacklight do |config|
+    config.citeproc = {
+      fields: {
+        address: 'publisher_a',
+        author: 'creator_main_a',
+        edition: 'edition_a',
+        publisher: 'publisher_a',
+        title: 'title_main',
+        year: 'publication_year_sort'
+      },
+      styles: %w[apa chicago-fullnote-bibliography modern-language-association ieee council-of-science-editors],
+      format: {
+        field: 'format',
+        default_format: :book,
+        mappings: {
+          book: ['Book', 'Musical Score', 'Ebook'],
+          misc: ['Map/Globe', 'Non-musical Recording', 'Musical Recording', 'Image', 'Software/Data', 'Video/Film']
+        }
+      }
+    }
     ## Class for sending and receiving requests from a search index
     # config.repository_class = Blacklight::Solr::Repository
     #
@@ -26,7 +45,6 @@ class CatalogController < ApplicationController
       rows: 10,
       spellcheck: 'true'
     }
-
     # solr path which will be added to solr base url before the other solr params.
     #config.solr_path = 'select'
 

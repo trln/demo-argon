@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/trln/trln_argon.git
-  revision: b8fe947c3c78d66b22e30020e1db5b2655f8205d
-  branch: master
+  revision: 80eed39e7f275aff8cc0c92e78437e76aee9e053
+  branch: Remove-citations
   specs:
     trln_argon (1.3.28)
       addressable (~> 2.5)
@@ -77,6 +77,8 @@ GEM
       coderay (>= 1.0.0)
       erubi (>= 1.0.0)
       rack (>= 0.9.0)
+    bibtex-ruby (6.0.0)
+      latex-decode (~> 0.0)
     bindex (0.8.1)
     blacklight (6.24.0)
       bootstrap-sass (~> 3.2)
@@ -88,6 +90,10 @@ GEM
       rails (>= 4.2, < 6)
       rsolr (>= 1.0.6, < 3)
       twitter-typeahead-rails (= 0.11.1.pre.corejavascript)
+    blacklight-citeproc (0.1.0)
+      bibtex-ruby (>= 4.4.6)
+      citeproc-ruby (~> 1.1)
+      csl-styles (~> 1.0.1.9)
     blacklight-hierarchy (1.1.0)
       blacklight (~> 6.0)
       jquery-rails
@@ -119,6 +125,11 @@ GEM
     chromedriver-helper (2.1.1)
       archive-zip (~> 0.10)
       nokogiri (~> 1.8)
+    citeproc (1.0.10)
+      namae (~> 1.0)
+    citeproc-ruby (1.1.14)
+      citeproc (~> 1.0, >= 1.0.9)
+      csl (~> 1.6)
     coderay (1.1.3)
     coffee-rails (4.2.2)
       coffee-script (>= 2.2.0)
@@ -129,6 +140,11 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.9)
     crass (1.0.6)
+    csl (1.6.0)
+      namae (~> 1.0)
+      rexml
+    csl-styles (1.0.1.11)
+      csl (~> 1.0)
     deprecation (1.1.0)
       activesupport
     devise (4.8.0)
@@ -203,6 +219,7 @@ GEM
       activerecord
       kaminari-core (= 1.2.1)
     kaminari-core (1.2.1)
+    latex-decode (0.3.2)
     library_stdnums (1.6.0)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -236,6 +253,7 @@ GEM
     msgpack (1.4.2)
     multipart-post (2.1.1)
     mysql2 (0.5.3)
+    namae (1.1.1)
     nio4r (2.5.8)
     nokogiri (1.12.5)
       mini_portile2 (~> 2.6.1)
@@ -374,6 +392,7 @@ PLATFORMS
 DEPENDENCIES
   better_errors (= 2.8.0)
   blacklight (~> 6.7)
+  blacklight-citeproc
   bootsnap (>= 1.1.0)
   bootstrap-sass (>= 3.4.1)
   byebug
