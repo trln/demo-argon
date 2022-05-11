@@ -4,6 +4,7 @@ Rails.application.configure do
   config.lograge.enabled = true
   config.lograge.formatter = Lograge::Formatters::Logstash.new
 
+  config.hosts << 'discovery.trln.org'
 
   # Code is not reloaded between requests.
   config.cache_classes = true
