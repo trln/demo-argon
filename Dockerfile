@@ -22,7 +22,10 @@ EXPOSE 3000
 
 RUN bundle config set path /gems
 
-CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0"]
+COPY entrypoint.sh /usr/local/bin/entrypoint.sh
+ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
+
+CMD ["start"]
 
 
 
