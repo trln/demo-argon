@@ -1,0 +1,5 @@
+#!/bin/sh
+
+CMD=${1:-start}
+
+podman run -it --rm -v $(pwd):/app:Z -p 3001:3000 demo-argon:latest $CMD
