@@ -15,6 +15,7 @@
 
 //
 // Required by Blacklight
+//= require popper
 //= require jquery
 //= require blacklight/blacklight
 //= require trln_argon/trln_argon
