@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/trln/trln_argon.git
-  revision: ab7695440c407ee5c0f23db5e435277dfbd6a4e4
-  branch: develop
+  revision: 1965d33084999612942a3a45c67dbee93b1ab4e8
+  branch: master
   specs:
-    trln_argon (2.0.0)
+    trln_argon (2.1.0)
       addressable (~> 2.5)
       blacklight (~> 7.0)
       blacklight-hierarchy (~> 4)
@@ -342,7 +342,7 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.4.4)
-    terser (1.1.11)
+    terser (1.1.12)
       execjs (>= 0.3.0, < 3)
     thor (1.2.1)
     tilt (2.0.10)
