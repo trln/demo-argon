@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/trln/trln_argon.git
-  revision: 77174abd3c2d18aa66330dd6330880aa8c568233
+  revision: fa31e0c8573e279ea33818ff913db01d6bf72302
   branch: main
   specs:
-    trln_argon (2.2.2)
+    trln_argon (2.2.3)
       addressable (~> 2.5)
       blacklight (~> 7.0)
       blacklight-hierarchy (~> 4)
@@ -368,7 +368,7 @@ GEM
       marc-fastxmlwriter (~> 1.0)
       slop (>= 3.4.5, < 4.0)
       yell
-    tzinfo (2.0.5)
+    tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unf (0.1.4)
       unf_ext
