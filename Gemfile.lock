@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/trln/trln_argon.git
-  revision: 691f3418b51b1f53bf7d30af132a157546100a9e
-  branch: Fix-clause-count-main-search
+  revision: 7d5ad16822bfa9092f9857bae1bb8dc760117495
+  branch: Fix-clause-count-main-search-and-advanced-search
   specs:
-    trln_argon (2.2.5)
+    trln_argon (2.2.7)
       addressable (~> 2.5)
       blacklight (~> 7.0)
       blacklight-hierarchy (~> 4)
@@ -246,7 +246,7 @@ GEM
     mini_portile2 (2.8.1)
     minitar (0.9)
     minitest (5.18.0)
-    msgpack (1.6.1)
+    msgpack (1.7.0)
     mysql2 (0.5.5)
     net-imap (0.3.4)
       date
@@ -334,7 +334,7 @@ GEM
       sprockets-rails
       tilt
     scrub_rb (1.0.1)
-    selenium-webdriver (4.8.1)
+    selenium-webdriver (4.8.6)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
