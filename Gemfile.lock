@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/trln/trln_argon.git
-  revision: 7d5ad16822bfa9092f9857bae1bb8dc760117495
+  revision: 018f4b9c60b52ac8da6aeaeb6ed5eb71548a45dd
   branch: Fix-clause-count-main-search-and-advanced-search
   specs:
     trln_argon (2.2.7)
