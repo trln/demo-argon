@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/trln/trln_argon.git
-  revision: a0fcb6dc9d67faddcf38d362c3d49751b4fcea9c
+  revision: 0fcaf90415612b4e0f8c80442beda72bfe87fbd9
   branch: limit-clause-count-with-adaptive-truncation
   specs:
     trln_argon (2.2.7)
@@ -258,7 +258,7 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.9)
-    nokogiri (1.14.2)
+    nokogiri (1.14.3)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     openurl (1.0.0)
