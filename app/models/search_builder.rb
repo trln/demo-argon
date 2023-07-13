@@ -5,8 +5,12 @@ class SearchBuilder < Blacklight::SearchBuilder
 
   include BlacklightAdvancedSearch::AdvancedSearchBuilder
   include TrlnArgon::ArgonSearchBuilder
+  include ArgonCallNumberSearch::SearchBuilderBehavior
 
-  self.default_processor_chain += [:add_advanced_search_to_solr]
+
+  self.default_processor_chain += %i[add_advanced_search_to_solr
+                                     add_call_number_query_to_solr]
+
 
   ##
   # @example Adding a new step to the processor chain

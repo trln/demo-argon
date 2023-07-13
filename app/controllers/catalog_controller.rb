@@ -125,5 +125,12 @@ class CatalogController < ApplicationController
     # If there are more than this many search results, no spelling ("did you
     # mean") suggestion is offered.
     config.spell_max = 5
+
+    config.add_search_field('call_number') do |field|
+      field.label = I18n.t('trln_argon.search_fields.call_number')
+      field.advanced_parse = false
+      field.include_in_advanced_search = false
+    end
+
   end
 end

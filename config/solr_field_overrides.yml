@@ -6,3 +6,18 @@
 #   solr_field: :authors_director_a
 #   label:
 #     en: Director
+
+LC_CALL_NOS_NORMED:
+  solr_field: :lc_call_nos_normed_a
+  label:
+    en: LCC Normed
+SHELFKEY:
+  solr_field: shelfkey
+  label:
+      en: Shelfkey
+SHELF_NUMBERS:
+  solr_field: shelf_numbers_tp
+  label:
+    en: Shelf Number
+
+
