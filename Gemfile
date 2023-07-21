@@ -6,7 +6,7 @@ ruby '2.7.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6'
 
-gem 'trln_argon', git: 'https://github.com/trln/trln_argon.git', branch: 'main'
+gem 'trln_argon', git: 'https://github.com/trln/trln_argon.git', branch: 'test-truncation'
 
 gem 'traject' , '~> 2.3.4'
 
@@ -46,7 +46,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'bootstrap', '~> 4.6'
 
-gem 'argon_call_number_search', git: 'https://github.com/trln/argon_call_number_search'
+gem 'argon_call_number_search', git: 'https://github.com/trln/argon_call_number_search', branch: 'test-require-lcsort'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
