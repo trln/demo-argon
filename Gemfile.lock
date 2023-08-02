@@ -1,18 +1,18 @@
 GIT
   remote: https://github.com/trln/argon_call_number_search
-  revision: 5c87623fcb451661f214a9bb2cc98f09bd844c19
-  branch: test-require-lcsort
+  revision: c43c8fd7ec28eb8e70c31a2ccf71d2a5caac338e
+  branch: test-truncation
   specs:
-    argon_call_number_search (0.1.4)
+    argon_call_number_search (0.1.5)
       activesupport
       lcsort
 
 GIT
   remote: https://github.com/trln/trln_argon.git
-  revision: 79b01bce30744ed05f12393ba1ea7ebdd849a012
+  revision: 9d46a2de3adb5a67d78f839dcd46aae46f937f0b
   branch: test-call-number
   specs:
-    trln_argon (2.2.11)
+    trln_argon (2.2.12)
       addressable (~> 2.5)
       blacklight (~> 7.0)
       blacklight-hierarchy (~> 4)
@@ -405,7 +405,7 @@ GEM
     xpath (3.2.0)
       nokogiri (~> 1.8)
     yell (2.2.2)
-    zeitwerk (2.6.8)
+    zeitwerk (2.6.9)
 
 PLATFORMS
   ruby
