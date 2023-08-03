@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/trln/trln_argon.git
-  revision: fe96b11a8a824ccefb5ccee18a172f37c8f5eeb4
+  revision: 05e251fdb931421bad9351b03678c2008bc9a181
   branch: test-call-number
   specs:
     trln_argon (2.2.12)
