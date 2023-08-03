@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/trln/trln_argon.git
-  revision: 5e6d802c799fedb6f7df4541f81ac45c606ab4f3
+  revision: fe96b11a8a824ccefb5ccee18a172f37c8f5eeb4
   branch: test-call-number
   specs:
     trln_argon (2.2.12)
@@ -300,7 +300,7 @@ GEM
       bundler (>= 1.15.0)
       railties (= 6.1.7.4)
       sprockets-rails (>= 2.0.0)
-    rails-dom-testing (2.1.1)
+    rails-dom-testing (2.2.0)
       activesupport (>= 5.0.0)
       minitest
       nokogiri (>= 1.6)
