@@ -6,7 +6,7 @@ ruby '2.7.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6'
 
-gem 'trln_argon', git: 'https://github.com/trln/trln_argon.git', branch: 'limit-clause-count-with-adaptive-truncation'
+gem 'trln_argon', git: 'https://github.com/trln/trln_argon.git', branch: 'main'
 
 gem 'traject' , '~> 2.3.4'
 
