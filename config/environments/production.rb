@@ -4,6 +4,18 @@ Rails.application.configure do
   config.lograge.enabled = true
   config.lograge.formatter = Lograge::Formatters::Logstash.new
 
+  config.hosts << 'discovery.trln.org'
+  # this ought to work but for some reason in AWS
+  # requests come from the public IP even though
+  # localhost is configured ...
+  config.hosts << 'localhost'
+  require 'socket'
+  local_ipv4 = Socket.ip_address_list.reject(&:ipv6?).reject(&:ipv4_multicast?
+).reject(&:ipv4_loopback?).map(&:ip_address)
+  local_ipv4.each do |addr|
+     config.hosts << addr 
+     warn "Dynamically added #{addr} to hosts list"
+  end
 
   # Code is not reloaded between requests.
   config.cache_classes = true
@@ -27,7 +39,7 @@ Rails.application.configure do
   config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
 
   # Compress JavaScripts and CSS.
-  config.assets.js_compressor = :uglifier
+  config.assets.js_compressor = :terser
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
