@@ -13,10 +13,7 @@ gem 'traject' , '~> 2.3.4'
 gem 'lograge', '~> 0.12.0'
 gem 'logstash-event'
 
-#gem 'mysql2'
-
-gem 'sqlite3', '~> 1.4.0'
-
+gem 'mysql2'
 
 # Use Puma as the app server
 gem 'puma', '~> 6'
