@@ -271,7 +271,6 @@ GEM
     minitest (5.23.1)
     msgpack (1.7.2)
     mutex_m (0.2.0)
-    mysql2 (0.5.6)
     net-http (0.4.1)
       uri
     net-imap (0.4.11)
@@ -458,7 +457,6 @@ DEPENDENCIES
   listen (~> 3.5)
   lograge (~> 0.12.0)
   logstash-event
-  mysql2
   puma (~> 6)
   rails (~> 7)
   sassc-rails (~> 2.1)
