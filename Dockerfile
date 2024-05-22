@@ -1,6 +1,6 @@
-FROM ruby:2.7.5 AS base
+FROM ruby:3.3.1-alpine as base
 
-RUN apt-get update && apt-get -y upgrade && apt-get install -y nodejs vim
+RUN apk -u add build-base git mysql-dev nodejs sqlite-dev tzdata
 
 FROM base AS builder
 
