@@ -6,7 +6,7 @@ ruby '3.2.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 7.1'
 
-gem 'trln_argon', git: 'https://github.com/trln/trln_argon.git', branch: 'TD-1336-duke-availability'
+gem 'trln_argon', git: 'https://github.com/trln/trln_argon.git', branch: 'Blacklight-8'
 
 gem 'traject' , '~> 2.3.4'
 
@@ -17,7 +17,8 @@ gem 'mysql2'
 # Use Puma as the app server
 gem 'puma'
 # Use SCSS for stylesheets
-gem 'sassc-rails'
+# gem 'sassc-rails'
+gem 'dartsass-sprockets'
 
 # JS compiler/compressor, instead of old uglifier
 gem 'terser', '~> 1.0'
@@ -44,8 +45,6 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
-gem 'bootstrap', '~> 4.6'
-
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -57,8 +56,8 @@ group :development do
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '~> 3.5'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  # gem 'spring'
+  # gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
 group :test do
@@ -82,3 +81,4 @@ gem 'devise'
 gem 'devise-guests', '~> 0.6'
 
 gem 'better_errors', '~> 2.9.0', group: :development
+gem 'bootstrap', '~> 5.3'
