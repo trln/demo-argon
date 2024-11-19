@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/trln/trln_argon.git
-  revision: fb862849753a463b2efb895c28850617b6f2ace0
+  revision: 4c4ef67d5d2b5e6e290b96471d938f3a8784a164
   branch: Blacklight-8
   specs:
     trln_argon (2.4.5)
@@ -359,7 +359,7 @@ GEM
     rb-inotify (0.11.1)
       ffi (~> 1.0)
     rchardet (1.8.0)
-    rdoc (6.7.0)
+    rdoc (6.8.1)
       psych (>= 4.0.0)
     regexp_parser (2.9.2)
     reline (0.5.11)
@@ -376,7 +376,7 @@ GEM
       faraday (>= 0.9, < 3, != 2.0.0)
     ruby-progressbar (1.13.0)
     rubyzip (2.3.2)
-    sass-embedded (1.80.7)
+    sass-embedded (1.81.0)
       google-protobuf (~> 4.28)
       rake (>= 13)
     sassc-embedded (1.80.1)
