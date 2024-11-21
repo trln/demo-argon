@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/trln/trln_argon.git
-  revision: 4c4ef67d5d2b5e6e290b96471d938f3a8784a164
+  revision: d6dc461ca38291e1050aed10337b61bd3d2e7054
   branch: Blacklight-8
   specs:
     trln_argon (2.4.5)
@@ -9,7 +9,7 @@ GIT
       blacklight (~> 8.0)
       blacklight-hierarchy (~> 6.3)
       blacklight_advanced_search (~> 8.0.0.alpha2)
-      blacklight_range_limit (~> 8)
+      blacklight_range_limit (= 9.0.0.beta1)
       citeproc-ruby (~> 1.1)
       coffee-rails (~> 4.2)
       csl-styles (~> 1.0)
@@ -138,9 +138,8 @@ GEM
     blacklight_advanced_search (8.0.0.alpha2)
       blacklight (>= 7.15, < 9)
       parslet
-    blacklight_range_limit (8.5.0)
+    blacklight_range_limit (9.0.0.beta1)
       blacklight (>= 7.25.2, < 9)
-      deprecation
       view_component (>= 2.54, < 4)
     bootsnap (1.18.4)
       msgpack (~> 1.2)
@@ -285,7 +284,7 @@ GEM
     minitar (1.0.2)
     minitest (5.25.1)
     msgpack (1.7.5)
-    mutex_m (0.2.0)
+    mutex_m (0.3.0)
     mysql2 (0.5.6)
     namae (1.2.0)
       racc (~> 1.7)
