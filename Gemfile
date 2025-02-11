@@ -6,7 +6,7 @@ ruby '3.2.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 7.1'
 
-gem 'trln_argon', git: 'https://github.com/trln/trln_argon.git', branch: 'Blacklight-8'
+gem 'trln_argon', git: 'https://github.com/trln/trln_argon.git', branch: 'main'
 
 gem 'traject' , '~> 2.3.4'
 
