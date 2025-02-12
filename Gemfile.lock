@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/trln/trln_argon.git
-  revision: 25b8f4672371ca5fe0837788e619a629c028c1aa
+  revision: 76a17cabd61d2c498040db05f9e24ef2434b1e21
   branch: main
   specs:
-    trln_argon (3.0.2)
+    trln_argon (3.0.3)
       addressable (~> 2.5)
       bibtex-ruby (>= 4.4.6, < 7)
       blacklight (~> 8.7)
@@ -327,7 +327,7 @@ GEM
     puma (6.6.0)
       nio4r (~> 2.0)
     racc (1.8.1)
-    rack (3.1.9)
+    rack (3.1.10)
     rack-session (2.1.0)
       base64 (>= 0.1.0)
       rack (>= 3.0.0)
