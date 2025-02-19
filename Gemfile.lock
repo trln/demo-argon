@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/trln/trln_argon.git
-  revision: 8822804be0fd6111eb64e7936cc30d588575cf5e
+  revision: 0bd742c81c7115855aecc3c7beeac8a8e769cf75
   branch: main
   specs:
-    trln_argon (3.0.5)
+    trln_argon (3.0.6)
       addressable (~> 2.5)
       bibtex-ruby (>= 4.4.6, < 7)
       blacklight (~> 8.7)
