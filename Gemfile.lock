@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/trln/trln_argon.git
-  revision: 6716174c149f2cf7cc9c544bc0842f93ad846121
+  revision: 23df24caac9c60e2fde8d555a8d8d285f1f1b74f
   branch: main
   specs:
-    trln_argon (3.0.8)
+    trln_argon (3.0.13)
       addressable (~> 2.5)
       bibtex-ruby (>= 4.4.6, < 7)
       blacklight (~> 8)
@@ -121,7 +121,7 @@ GEM
       racc (~> 1.7)
     bigdecimal (3.1.9)
     bindex (0.8.1)
-    blacklight (8.8.2)
+    blacklight (8.8.3)
       globalid
       i18n (>= 1.7.0)
       jbuilder (~> 2.7)
@@ -227,7 +227,8 @@ GEM
       bigdecimal
       rake (>= 13)
     hashie (3.6.0)
-    httpclient (2.8.3)
+    httpclient (2.9.0)
+      mutex_m
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
     io-console (0.8.0)
@@ -327,7 +328,7 @@ GEM
     puma (6.6.0)
       nio4r (~> 2.0)
     racc (1.8.1)
-    rack (3.1.10)
+    rack (3.1.11)
     rack-session (2.1.0)
       base64 (>= 0.1.0)
       rack (>= 3.0.0)
@@ -390,13 +391,13 @@ GEM
       faraday (>= 0.9, < 3, != 2.0.0)
     ruby-progressbar (1.13.0)
     rubyzip (2.4.1)
-    sass-embedded (1.85.0)
+    sass-embedded (1.85.1)
       google-protobuf (~> 4.29)
       rake (>= 13)
     sassc-embedded (1.80.4)
       sass-embedded (~> 1.80)
     securerandom (0.4.1)
-    selenium-webdriver (4.29.0)
+    selenium-webdriver (4.29.1)
       base64 (~> 0.2)
       logger (~> 1.4)
       rexml (~> 3.2, >= 3.2.5)
@@ -437,7 +438,7 @@ GEM
       yell
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    uri (1.0.2)
+    uri (1.0.3)
     view_component (3.21.0)
       activesupport (>= 5.2.0, < 8.1)
       concurrent-ruby (~> 1.0)
